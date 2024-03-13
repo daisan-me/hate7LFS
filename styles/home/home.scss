@@ -1,0 +1,234 @@
+/*homeページに特有のスタイルを管理します*/
+/* THIS PAGE COVERS THE FOLLOWING STYLES
+
+content-wrapper, content-header, first-header
+
+second-header, introduction, icon-wrapper
+
+icon-spacer, #icon, exp-spacer, explanation
+
+exp-txt, history-wrapper, year-container
+
+year story
+
+*/
+
+
+
+.introduction {
+    float: left;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    max-width: 1000px;
+}
+
+//--------------icons-----//
+
+.icon-wrapper {
+    float: left;
+    width: 30%;
+}
+.icon-spacer {
+    width: 95%;
+    margin-left: 0px;
+    margin-right: 5%;
+    max-width: 300px;
+}
+#icon {
+    max-width: 240px;
+    min-width: 80px;
+    width: 84%;
+    border: solid 3px #d7d;
+    margin-top: 8%;
+    margin-right: 8%;
+    margin-left: 8%;
+    margin-bottom: 8%;
+    aspect-ratio: 1/1;
+    border-radius: 4%;
+}
+
+//--------------icons--end---//
+
+
+//----name-----//
+
+.name-box {
+    float: left;
+    width: 100%;
+    max-width: 700px;
+    margin-top:  10px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 10px;
+}
+.name {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(247, 187, 247);
+}
+.job-title {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 2rem;
+    font-weight: 300;
+    padding-top: 4px;
+    color: rgb(247, 187, 247);
+}
+
+//----name---end--//
+
+.exp-spacer {
+    width: 60%;
+    padding-top: 20px;
+}
+.explanation {
+    float: left;
+    width: 100%;
+    max-width: 700px;
+    margin-top:  10px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 10px;
+}
+.exp-txt {
+    color: #555555;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 300;
+    font-size: 1.6rem;
+    padding-bottom: 10px;
+    letter-spacing: 0.03rem;
+}
+
+//------------以下からWORK一覧//
+
+.history-wrapper {
+    float: left;
+    width: 100%;
+    padding-bottom: 100px;
+}
+.year-container {
+    float: left;
+    width: 100%;
+    padding-left: 30px;
+}
+.year {
+    float: left;
+    width: 100%;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 2rem;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.story {
+    font-family: "Sawarabi Gothic", sans-serif;
+    font-weight: 100;
+    font-size: 1.6rem;
+    color: #404050;
+}
+.text-spacer {
+    margin-top: 10px;
+}
+.client {
+    text-decoration: underline;
+}
+.dash {
+    text-decoration: none;
+}
+@media screen and (min-width: 1800px) {
+}
+
+@media screen and (max-width: 768px) {
+    .exp-txt {
+        font-size: 1.4rem;
+    }
+    .year {
+        font-size: 2rem;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .year-container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .story {
+        font-size: 1.4rem;
+    }
+    .name-box {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .explanation {
+        margin: 0;
+    }
+    .introduction {
+        padding-right: 5%;
+    }
+    .icon-wrapper {
+        width: 40%;
+    }
+    .icon-spacer {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        max-width: 320px;
+    }
+    #icon {
+        min-width: 90px;
+    }
+    .exp-spacer {
+        width: 60%;
+        padding-top: 3%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .introduction {
+        flex-flow: column;
+        justify-content: center;
+        padding-top: 0px;
+        width: 92%;
+        margin-right: 4%;
+        margin-left: 4%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        padding-right: 0pxs;
+    }
+    .name-box {
+        margin: 0px;
+        padding-top: 5%;
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-bottom: 0px;
+    }
+    .exp-spacer {
+        width: 100%;
+        padding-top: 0px;
+    }
+    .explanation {
+        margin: 0px;
+        padding-top: 5%;
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-bottom: 0px;
+    }
+    .icon-wrapper {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .icon-spacer {
+        display: flex;
+        justify-content: center;
+    }
+    .history-wrapper {
+        width: 96%;
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+}

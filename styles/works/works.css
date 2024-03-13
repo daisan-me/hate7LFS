@@ -1,0 +1,94 @@
+.side-bar {
+  width: 20%;
+  margin-right: 0%;
+}
+
+.content-wrapper {
+  width: 75%;
+}
+
+.portfolio-palette {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+}
+
+.portfolio-case {
+  width: 50%;
+  position: relative;
+}
+
+.portfolio-img {
+  width: 100%;
+  position: relative;
+  vertical-align: bottom;
+}
+
+.portfolio-hover {
+  color: #777777;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  transition: opacity 0.2s 0s ease;
+}
+
+.portfolio-hover:hover {
+  opacity: 1;
+}
+
+.portfolio-inner {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.description-flex {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.description {
+  font-family: "Sawarabi Gothic", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 2rem;
+  font-weight: 400;
+  padding-top: 4px;
+  color: white;
+  z-index: 200;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+
+.square {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #3b3d58;
+  opacity: 0.4;
+}
+
+@media screen and (max-width: 768px) {
+  .content-wrapper {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 540px) {
+  .portfolio-case {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .description {
+    font-size: 1.4rem;
+  }
+}/*# sourceMappingURL=works.css.map */

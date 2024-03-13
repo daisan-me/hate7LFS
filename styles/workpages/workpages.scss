@@ -1,0 +1,53 @@
+.work-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px
+}
+.work-exp {
+    font-family: "Sawarabi Gothic", sans-serif;
+    font-weight: 300;
+    font-size: 1.6rem;
+    color: #000033;
+}
+.work-thumb-spacer {
+    width: 70%;
+    margin: 40px 15% 0;
+}
+.work-thumb {
+    width: 100%;
+}
+.work-YT-spacer {
+    width: 70%;
+    margin: 10px 15% 0;
+    max-width: 560px;
+    max-height: 315px;
+}
+.work-YT {
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+@media screen and (max-width: 768px) {
+    .work-thumb-spacer {
+    width: 86%;
+    margin-right: 7%;
+    margin-left: 7%;
+    }
+    .work-YT-spacer {
+    width: 86%;
+    margin-right: 7%;
+    margin-left: 7%;
+    max-width: 560px;
+    max-height: 315px;
+    }
+}
+@media screen and (max-width: 540px) {
+    .work-thumb-spacer {
+        width: 100%;
+    }
+
+    .work-YT-spacer {
+        width: 100%;
+    }
+}
